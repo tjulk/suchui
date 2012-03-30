@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="plmn_cmcc">CMCC</string>
+    <string name="plmn_cu">"China Unicom"</string>
+    <string name="badPukInput">"Il codice PUK è di 8 cifre."</string>
+    <string name="Pinagain">"Ingresso di nuovo"</string>
+    <string name="unlockPuk">"Digitare il codice PUK per sbloccarlo."</string>
+
+
+<!--pekall begin-->
+	<!-- Profile Setting -->
+	
+	<string name="silent_mode_title">Silent mode</string>
+	<string name="silent_mode_summary">silence except media &amp; alarms</string>
+	<string name="ring_and_vibrate_mode_title">Outdoor mode</string>
+	<string name="ring_and_vibrate_mode_summary">Ring and vibrate</string>
+	<string name="ring_mode_title">Normal mode</string>
+	<string name="ring_mode_summary">Ring</string>
+	<string name="vibrate_mode_title">Vibrate mode</string>
+	<string name="vibrate_mode_summary">Vibrate</string>
+	<string name="custom_mode_title">Modo personalizzato</string>
+	<string name="custom_mode_summary">Tutto su di te</string>
+
+        <string name="profile_mode_start">%s is on</string>
+	<!--pekall end-->
+
+   <string name="usb_mode_notification_title">USB Mode Settings</string>
+    <string name="usb_mode_notification_message">Select to USB Mode to work at</string>
+   <string name="sim_nck_locked">"SIM bloccata!"</string>
+   <string name="lockscreen_emergency_call">"Chiamata d'emergenza"</string>
+        
+</resources>

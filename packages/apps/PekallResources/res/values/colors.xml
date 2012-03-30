@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- pekall policy  -->
+  	<color name="transparent_background">#50000000</color> 
+  	<color name="appwidget_text">#ffffffff</color>
+  	<color name="common_background">#E0E5E2</color>
+  	<color name="search_background">#808080</color>
+    <color name="audio_player">#696969</color>
+    <color name="list_item_pressed">#AFEEEE</color>
+    <color name="default_select_lrc">#000000</color>
+    <color name="default_unselect_lrc">#7E7E7E</color>
+    <!-- pekall policy end -->
+	<drawable name="shade_bgcolor">#ff282828</drawable>
+</resources>

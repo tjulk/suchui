@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+  <!-- pekall policy -->
+    <declare-styleable name="MultiWaveView">
+        <!-- Reference to an array resource that be shown as targets around a circle. -->
+        <attr name="targetDrawables" format="reference"/>
+
+        <!-- Reference to an array resource that be used as description for the targets around the circle. -->
+        <attr name="targetDescriptions" format="reference"/>
+
+        <!-- Reference to an array resource that be used to announce the directions with targets around the circle. -->
+        <attr name="directionDescriptions" format="reference"/>
+
+        <!-- Sets a drawable as the drag center. -->
+        <attr name="handleDrawable" format="reference" />
+
+        <!-- Drawable to use for chevron animation on the left. May be null. -->
+        <attr name="leftChevronDrawable" format="reference" />
+
+        <!-- Drawable to use for chevron animation on the right. May be null. -->
+        <attr name="rightChevronDrawable" format="reference" />
+
+        <!-- Drawable to use for chevron animation on the top. May be null. -->
+        <attr name="topChevronDrawable" format="reference" />
+
+        <!-- Drawable to use for chevron animation on the bottom. May be null. -->
+        <attr name="bottomChevronDrawable" format="reference" />
+
+        <!-- Drawable to use for wave ripple animation. -->
+        <attr name="waveDrawable" format="reference" />
+
+        <!-- Outer radius of target circle. Icons will be drawn on this circle. -->
+        <attr name="outerRadius" format="dimension" />
+
+        <!-- Size of target radius. Points within this distance of target center is a "hit". -->
+        <attr name="hitRadius" format="dimension" />
+
+        <!-- Tactile feedback duration for actions. Set to '0' for no vibration. -->
+        <attr name="vibrationDuration" format="integer"/>
+
+        <!-- How close we need to be before snapping to a target. -->
+        <attr name="snapMargin" format="dimension" />
+
+        <!-- Number of waves/chevrons to show in animation. -->
+        <attr name="feedbackCount" format="integer" />
+
+        <!-- Used to shift center of pattern vertically. -->
+        <attr name="verticalOffset" format="dimension" />
+
+        <!-- Used to shift center of pattern horizontally. -->
+        <attr name="horizontalOffset" format="dimension" />
+    </declare-styleable>
+    <!-- pekall policy end-->
+</resources>

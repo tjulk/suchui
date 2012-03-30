@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="plmn_cmcc">"China Mobile"</string>
+    <string name="plmn_cu">"China Unicom"</string>
+    <string name="badPukInput">"PUK sadece 8 hanedir."</string>
+    <string name="Pinagain">"girin bir"</string>
+    <string name="unlockPuk">"Giriş PUK"</string>
+
+
+<!--pekall begin-->
+	<!-- Profile Setting -->
+	
+    <string name="silent_mode_title">"Sessiz modda"</string>
+    <string name="silent_mode_summary">"Tüm sessiz bir ortam ve çalar saat ek olarak"</string>
+    <string name="ring_and_vibrate_mode_title">Açık modu</string>
+    <string name="ring_and_vibrate_mode_summary">sesleri ve titreşim Ring</string>
+    <string name="ring_mode_title">Normal modda</string>
+    <string name="ring_mode_summary">Melodiler</string>
+    <string name="vibrate_mode_title">Titreşim modu</string>
+    <string name="vibrate_mode_summary">Yalnızca vibrasyon</string>
+    <string name="custom_mode_title">Özel mod</string>
+    <string name="custom_mode_summary">Tümü size bağlı</string>
+
+    <string name="profile_mode_start">%s Etkin</string>
+	<!--pekall end-->
+
+    <string name="usb_mode_notification_title" msgid="6200001897729781332">"USB modunu"</string>
+    <string name="usb_mode_notification_message" msgid="4700009856601275146">"Set USB modunu"</string>
+   <string name="sim_nck_locked">"SIM kart kilitli"</string>
+   <string name="lockscreen_emergency_call">SOS</string>
+        
+</resources>

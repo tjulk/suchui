@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transport_controls"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/control_panel"
+   		>
+        <TextView
+            android:id="@+id/title"
+            android:textSize="19dip"
+            android:textColor="#ffffff"
+            android:singleLine="true"
+            android:layout_width="180dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:gravity="center_horizontal"
+            android:ellipsize="marquee"
+            android:focusable="true"
+  			android:marqueeRepeatLimit="marquee_forever"
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="16dip"
+            >
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/btn_prev"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+        			 android:layout_gravity="center"
+        			 android:src="@drawable/ic_lockscreen_music_pre"
+					 android:background="@drawable/left_bg"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/btn_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+        			android:layout_gravity="center"
+        			android:src="@drawable/ic_lockscreen_music_play"
+					android:background="@drawable/middle_bg"/>
+                 
+                <ImageView
+                    android:id="@+id/btn_pause"
+					android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+        			android:layout_gravity="center"
+					android:background="@drawable/ic_appwidget_music_pause"
+					android:visibility="gone"/>
+				 
+            </FrameLayout>
+            <FrameLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+        			android:layout_gravity="center"
+        			android:src="@drawable/ic_lockscreen_music_next"
+					android:background="@drawable/right_bg"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

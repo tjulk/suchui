@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="plmn_cmcc">CMCC</string>
+    <string name="plmn_cu">"China Unicom"</string>
+    <string name="badPukInput">"The PUK code shall be 8 digits."</string>
+    <string name="Pinagain">"Input again"</string>
+    <string name="unlockPuk">"Type the PUK code to unlock it."</string>
+
+
+<!--pekall begin-->
+	<!-- Profile Setting -->
+	
+	<string name="silent_mode_title">Silent mode</string>
+	<string name="silent_mode_summary">silence except media &amp; alarms</string>
+	<string name="ring_and_vibrate_mode_title">Outdoor mode</string>
+	<string name="ring_and_vibrate_mode_summary">Ring and vibrate</string>
+	<string name="ring_mode_title">Normal mode</string>
+	<string name="ring_mode_summary">Ring</string>
+	<string name="vibrate_mode_title">Vibrate mode</string>
+	<string name="vibrate_mode_summary">Vibrate</string>
+	<string name="custom_mode_title">Custom mode</string>
+	<string name="custom_mode_summary">Custom</string>
+        <string name="profile_mode_start">%s is on</string>
+	<!--pekall end-->
+
+   <string name="usb_mode_notification_title">USB Mode Settings</string>
+    <string name="usb_mode_notification_message">Select to USB Mode to work at</string>
+   <string name="sim_nck_locked">SIM locked!</string>
+   <string name="lockscreen_emergency_call">Emergency Call</string>
+ 
+
+	<!--pekall policy string -->
+    <!-- Description of the up direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_up">Up for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    <!-- Description of the down direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_down">Down for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    <!-- Description of the left direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_left">"Left for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    <!-- Description of the right direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_right">Right for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+
+    <!-- Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_unlock">Unlock</string>
+    <!-- Description of the camera target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_camera">Camera</string>
+    <!-- Description of the silent target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_silent">Silent</string>
+    <!-- Description of the sound on target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_soundon">Sound on</string>
+
+    <!-- Description of the unlock handle in the Slide unlock screen for tablets. [CHAR LIMIT=NONE] -->
+    <string name="description_target_unlock_tablet">Swipe to unlock.</string>
+
+    <!-- Shown on transport control of lockscreen. Pressing button goes to previous track. -->
+    <string name="lockscreen_transport_prev_description">Previous track button</string>
+    <!-- Shown on transport control of lockscreen. Pressing button goes to next track. -->
+    <string name="lockscreen_transport_next_description">Next track button</string>
+    <!-- Shown on transport control of lockscreen. Pressing button pauses playback -->
+    <string name="lockscreen_transport_pause_description">Pause button</string>
+    <!-- Shown on transport control of lockscreen. Pressing button pauses playback -->
+    <string name="lockscreen_transport_play_description">Play button</string>
+    <!-- Shown on transport control of lockscreen. Pressing button pauses playback -->
+    <string name="lockscreen_transport_stop_description">Stop button</string>
+
+
+	<!-- policy string end-->  
+	
+	
+	<!-- The text for the button in the notification window-shade that clears
+         all of the currently visible notifications. -->
+    <string name="status_bar_clear_all_button">Clear</string>
+
+    <!-- The label in the bar at the top of the status bar when there are no notifications
+         showing. -->
+    <string name="status_bar_no_notifications_title">No notifications</string>
+
+    <!-- The label for the group of notifications for ongoing events in the opened version of
+         the status bar.  An ongoing call is the prime example of this.  The MP3 music player
+         might be another example.  -->
+    <string name="status_bar_ongoing_events_title">Ongoing</string>
+
+    <!-- The label for the group of notifications for recent events in the opened version of
+         the status bar.  Recently received text messsages (SMS), emails, calendar alerts, etc. -->
+    <string name="status_bar_latest_events_title">Notifications</string> 
+    
+    
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">
+        You have incorrectly unlocked your phone <xliff:g id="number">%d</xliff:g> times.
+        \n\nPlease try again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+    
+    <string name="lockscreen_too_many_failed_attempts_dialog_message_simpin"
+		msgid="3514742106066877476">
+        You have incorrectly simpin unlocked your phone <xliff:g id="number">%d</xliff:g> times.
+        \n\nPlease try again in <xliff:g id="number">%d</xliff:g> seconds.
+	</string>  
+	<string name="lockscreen_too_many_failed_attempts_dialog_message_pattern"
+		msgid="3514742106066877476">
+        You have incorrectly pattern unlocked your phone <xliff:g id="number">%d</xliff:g> times.
+        \n\nPlease try again in <xliff:g id="number">%d</xliff:g> seconds.
+	</string> 
+	<string name="lockscreen_too_many_failed_attempts_dialog_message_password"
+		msgid="3514742106066877476">
+        You have incorrectly unlocked your phone <xliff:g id="number">%d</xliff:g> times.
+        \n\nPlease try again in <xliff:g id="number">%d</xliff:g> seconds.
+	</string> 
+	<string name="lockscreen_too_many_failed_attempts_dialog_message_account"
+		msgid="3514742106066877476">
+        You have incorrectly account unlocked your phone <xliff:g id="number">%d</xliff:g> times.
+        \n\nPlease try again in <xliff:g id="number">%d</xliff:g> seconds.
+	</string> 
+	<string name="lockscreen_password_wrong_with_leftcount" >Sorry, try again ,%d left</string>    
+</resources>

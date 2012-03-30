@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="plmn_cmcc">"中國移動"</string>
+    <string name="plmn_cu">"中國聯通"</string>
+
+    <string name="silent_mode_title">"靜音模式"</string>
+    <string name="silent_mode_summary">"除媒體、鬧鐘外，全部靜音"</string>
+    <string name="ring_and_vibrate_mode_title">戶外模式</string>
+    <string name="ring_and_vibrate_mode_summary">鈴聲和振動</string>
+    <string name="ring_mode_title">普通模式</string>
+    <string name="ring_mode_summary">鈴聲</string>
+    <string name="vibrate_mode_title">振動模式</string>
+    <string name="vibrate_mode_summary">僅振動</string>
+    <string name="custom_mode_title">自定義模式</string>
+    <string name="custom_mode_summary">自定義</string>
+
+    <string name="profile_mode_start">%s已啟用</string>
+    
+   <string name="description_direction_up" msgid="1983114130441878529">"向上滑動即可<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_down" msgid="4294993639091088240">"向下滑動即可<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_left" msgid="6814008463839915747">"向左滑動即可<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_right" msgid="4296057241963012862">"向右滑動即可<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_target_unlock" msgid="2228524900439801453">"解除鎖定"</string>
+    <string name="description_target_camera" msgid="969071997552486814">"相機"</string>
+    <string name="description_target_silent" msgid="893551287746522182">"靜音"</string>
+    <string name="description_target_soundon" msgid="30052466675500172">"開啟音效"</string>
+    <string name="description_target_unlock_tablet" msgid="3833195335629795055">"滑動即可解鎖。"</string>
+
+    <string name="lockscreen_transport_prev_description" msgid="201594905152746886">"[上一首曲目] 按鈕"</string>
+    <string name="lockscreen_transport_next_description" msgid="6089297650481292363">"[下一首曲目] 按鈕"</string>
+    <string name="lockscreen_transport_pause_description" msgid="7659088786780128001">"[暫停] 按鈕"</string>
+    <string name="lockscreen_transport_play_description" msgid="5888422938351019426">"[播放] 按鈕"</string>
+    <string name="lockscreen_transport_stop_description" msgid="4562318378766987601">"[停止] 按鈕"</string>
+
+    <string name="status_bar_clear_all_button">清除</string>
+    <string name="status_bar_no_notifications_title">沒有通知</string>
+    <string name="status_bar_ongoing_events_title">正在運行</string>
+    <string name="status_bar_latest_events_title">通知</string>
+    
+    <string name="lockscreen_too_many_failed_attempts_dialog_message_simpin"
+		msgid="3514742106066877476">
+		"您已經<xliff:g id="NUMBER_0">%d</xliff:g>次輸入PIN碼錯誤。"\n\n"請在<xliff:g id="NUMBER_1">%d</xliff:g>秒後重試。"
+	</string>  
+	    <string name="lockscreen_too_many_failed_attempts_dialog_message_pattern"
+		msgid="3514742106066877476">
+		"您已經<xliff:g id="NUMBER_0">%d</xliff:g>次繪錯了自己的解鎖圖案。"\n\n"請在<xliff:g id="NUMBER_1">%d</xliff:g>秒後重試。"
+	</string> 
+	<string name="lockscreen_too_many_failed_attempts_dialog_message_password"
+		msgid="3514742106066877476">
+		"您已经<xliff:g id="NUMBER_0">%d</xliff:g>次嘗試解鎖失敗。"\n\n"請在<xliff:g id="NUMBER_1">%d</xliff:g>秒後重試。"
+	</string> 
+	    <string name="lockscreen_too_many_failed_attempts_dialog_message_account"
+		msgid="3514742106066877476">
+		"您已经<xliff:g id="NUMBER_0">%d</xliff:g>次輸入錯誤帳號。"\n\n"請在<xliff:g id="NUMBER_1">%d</xliff:g>秒後重試。"
+	</string>  
+    <string name="lockpassword_password_too_long" >"密码 不得超過 %d 位數"</string>
+    <string name="lockpassword_pin_too_long">"PIN 不得超過 %d 位數"</string>  
+    <string name="lockpassword_password_too_short" >"密碼必須有至少 %d 個字元"</string>
+    <string name="lockpassword_pin_too_short">"PIN 必須有至少 %d 個字元"</string> 
+    <string name="lockscreen_password_wrong_with_leftcount" >很抱歉，請重試，剩餘 %d 次</string>
+</resources>
